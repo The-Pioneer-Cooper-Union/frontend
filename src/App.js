@@ -38,16 +38,16 @@ function App() {
       <Router>
         <div className="app">
           <Routes>
-            <Route path="/index.html#/signUp" element={<SignUp />} />
-            <Route path="/index.html#" element={<Start />} />
-            <Route path="/index.html#/login" element={<Login />} />
-            <Route path="/index.html#/home" element={currentUser ? <Home /> : <Navigate to="/login" />} />
-            <Route path="/index.html#/home/profile" element={currentUser ? <Profile /> : <Navigate to="/login" />} />
-            <Route path="/index.html#/home/for-editor" element={currentUser && userDetails ? (userDetails.userType === 'ADMIN' ? <ForEditor /> : <Navigate to="/home" />) : <Navigate to="/login" />} />
-            <Route path="/index.html#/home/submissions" element={currentUser ? <Submissions /> : <Navigate to="/login" />} />
-            <Route path="/index.html#/terms" element={<Terms />} />
-            <Route path="/index.html#/privacy" element={<Privacy />} />
-            <Route path="/index.html#/contact" element={<Contact />} />
+            <Route path="/signUp" element={<SignUp />} />
+            <Route path="/" element={<Start />} />
+            <Route path="/login" element={<Login />} />
+            <Route path="/home" element={currentUser ? <Home /> : <Navigate to="/login" />} />
+            <Route path="/home/profile" element={currentUser ? <Profile /> : <Navigate to="/login" />} />
+            <Route path="/home/for-editor" element={currentUser && userDetails ? (userDetails.userType === 'ADMIN' ? <ForEditor /> : <Navigate to="/home" />) : <Navigate to="/login" />} />
+            <Route path="/home/submissions" element={currentUser ? <Submissions /> : <Navigate to="/login" />} />
+            <Route path="/terms" element={<Terms />} />
+            <Route path="/privacy" element={<Privacy />} />
+            <Route path="/contact" element={<Contact />} />
           </Routes>
           <Footer/>
         </div>
