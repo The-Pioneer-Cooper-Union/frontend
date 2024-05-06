@@ -1,7 +1,7 @@
 {
   "name": "frontend",
   "version": "0.1.0",
-  "homepage": "https://the-pioneer-cooper-union.github.io",
+  "homepage": "https://the-pioneer-cooper-union.github.io/frontend/#",
   "private": true,
   "dependencies": {
     "@azure/identity": "^4.2.0",
@@ -24,7 +24,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -b master -d build"
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
