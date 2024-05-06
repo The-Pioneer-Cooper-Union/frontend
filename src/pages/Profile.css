@@ -1,0 +1,78 @@
+.profile-page {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 1rem;
+    background: #f8f9fa;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.user-details {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    background: white;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+
+.user-avatar {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 20px;
+}
+
+.user-info {
+    flex-grow: 1;
+}
+
+.user-info h2 {
+    margin: 0;
+    font-size: 24px;
+    color: #333;
+}
+
+.user-info p {
+    font-size: 16px;
+    color: #666;
+    margin: 5px 0;
+}
+
+/* Responsive design for smaller screens */
+@media (max-width: 768px) {
+    .user-details {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .user-avatar {
+        margin-bottom: 20px;
+    }
+
+    .user-info h2 {
+        text-align: center;
+    }
+
+    .user-info p {
+        text-align: center;
+    }
+}
+/* Add to Profile.css */
+.edit-button, .update-button {
+    padding: 5px 10px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+/* Hide the button if not in edit mode */
+.update-button {
+    display: none;
+}
+
+/* When in edit mode, display the update button */
+.edit-mode .update-button {
+    display: inline;
+}
+

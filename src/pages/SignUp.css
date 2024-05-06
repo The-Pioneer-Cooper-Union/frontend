@@ -1,0 +1,89 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+.signup-page {
+  display: flex;
+  height: 90vh;
+}
+
+.left-side, .right-side {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.left-side {
+  background-color: #b38c00;
+  font-family: 'Great Vibes', cursive;
+  font-size: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+
+.logo-link {
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.logo-text {
+  color: #0c0a0a;
+  cursor: pointer;
+  font-family: 'Great Vibes', cursive;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.logo-link:hover .logo-text {
+  color: #6683ce;
+}
+
+
+
+.right-side {
+  background-color: white;
+}
+
+.signup-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 80%;  /* Ensures the form doesn't stretch too much */
+  align-items: center; /* Ensures everything aligns to the center */
+}
+
+.signup-form input,
+.signup-form select,
+.signup-form button {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 100%; /* Ensures all elements have the same width */
+  margin: 0;   /* Resets any default margin */
+}
+
+.signup-form button {
+  padding: 10px;
+  background-color: #b38c00;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100%;
+}
+
+.signup-form button:hover {
+  background-color: #6683ce;
+}

@@ -1,0 +1,106 @@
+{
+  "users": [
+    {
+      "userId": 1,
+      "username": "justin",
+      "email": "justin@example.com",
+      "passwordHash": "updatedPasswordHash",
+      "userType": "Student",
+      "major": "Computer Science",
+      "graduationYear": 2025,
+      "profilePic": "updatedPath/to/profile_pic.jpg",
+      "shortBio": "Updated short bio about the user."
+    },
+    {
+      "userId": 2,
+      "username": "emma",
+      "email": "emma@example.com",
+      "passwordHash": "hashedPassword",
+      "userType": "Student",
+      "major": "Mathematics",
+      "graduationYear": 2024,
+      "profilePic": "path/to/profile_pic.jpg",
+      "shortBio": "Short bio about the user."
+    },
+    {
+      "userId": 3,
+      "username": "alex",
+      "email": "alex@example.com",
+      "passwordHash": "hashedPassword",
+      "userType": "Instructor",
+      "major": "Physics",
+      "graduationYear": null,
+      "profilePic": "path/to/profile_pic.jpg",
+      "shortBio": "Short bio about the user."
+    }
+  ],
+  "articles": [
+    {
+      "article_id": 1,
+      "title": "Sample Article 1",
+      "content": "When Architecture Students returned from the March school break, one thing stood out: new security cameras in the 3rd floor Architecture Studio, as well as other locations around the Foundation Building. The arrival of these cameras alarmed and angered many students, who had not been made aware that they would be installed in the Architecture Studio, a space exclusively for students to work. According to the Administration, these cameras are in place specifically to investigate the complaints that Tom Tresselt, head of Cooper’s security, has had, “where he and his security staff were asked to investigate missing work; damaged work; damaged prayer space, etc. And [the administration] has been unable to figure out how the damage or removal of work happened or by whom.” They further explained that “if there are more serious security issues such as vandalism, fire, misconduct between individuals, or misconduct of guests, these cameras will enable [Tresselt] and his security staff to investigate,” adding finally that “the footage would only be reviewed [...] upon request due to injury, damage, stolen equipment, or other potential security breaches.” And, while the security team does not have statistics on the number of reports of theft or property damage, there have been seven injuries so far in the Art and Architecture Studios this academic year. Some students, however, refute some of the claims made by the administration. According to the Architecture Student Council, not only are cases of theft, property damage, and violence rare, but so too are actual reports to security, which directly contrast the administration’s justification for the camera’s placement. It furthers that some of the reported cases of injury could very likely have come from accidents or improper shop safety, rather than physical altercations, although the nature of the injuries reported is likely to remain unknown. But there’s a larger issue at play here, surrounding the rights of individuals to their privacy while in their Studio. While security cameras elsewhere on school grounds — hallway cameras, external cameras — are connected to central monitors that are routinely observed by the school’s security team, these new cameras are not monitored via a central computer, but rather have their feed recorded to an external computer, which does not display a live feed. the administration claims that “Only Tom [Tresselt] and his security supervisors have access to the cameras,” furthering that no members of the administration will have access. ",
+      "user_id": 1,
+      "submission_date": "2024-04-09",
+      "article_status": "Published",
+      "picture": "path/to/picture1.jpg",
+      "media_url": "https://example.com/media1",
+      "category": "Technology",
+      "issue": 1,
+      "volume": 1
+    },
+    {
+      "article_id": 2,
+      "title": "Sample Article 2",
+      "content": "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "user_id": 2,
+      "submission_date": "2024-04-09",
+      "article_status": "Published",
+      "picture": "path/to/picture2.jpg",
+      "media_url": "https://example.com/media2",
+      "category": "Science",
+      "issue": 1,
+      "volume": 1
+    },
+    {
+      "article_id": 3,
+      "title": "Sample Article 3",
+      "content": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      "user_id": 3,
+      "submission_date": "2024-04-11",
+      "article_status": "Published",
+      "picture": null,
+      "media_url": "https://example.com/media3",
+      "category": "Politics",
+      "issue": 2,
+      "volume": 1
+    }
+  ],
+  "comments": [
+    {
+      "comment_id": 1,
+      "article_id": 1,
+      "user_id": 2,
+      "comment_text": "Great article!",
+      "comment_date": "2024-04-12",
+      "parent_comment_id": null
+    },
+    {
+      "comment_id": 2,
+      "article_id": 1,
+      "user_id": 3,
+      "comment_text": "I enjoyed reading this.",
+      "comment_date": "2024-04-13",
+      "parent_comment_id": null
+    },
+    {
+      "comment_id": 3,
+      "article_id": 2,
+      "user_id": 1,
+      "comment_text": "Looking forward to the next one.",
+      "comment_date": "2024-04-11",
+      "parent_comment_id": null
+    }
+  ]
+}
+
+

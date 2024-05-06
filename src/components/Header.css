@@ -1,0 +1,57 @@
+.header {
+    width: 100%;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    background-color: #fff;
+}
+
+.header-nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2%;
+    max-width: 98%;
+    margin: auto;
+}
+
+.header-logo-link {
+    flex-grow: 1;
+    text-decoration: none;
+    color: #333;
+    font-family: 'Great Vibes', cursive;
+    font-size: 3rem;
+}
+
+.header-logo-link:hover, .header-user-info:hover {
+    color: #6683ce;
+}
+
+.header-user-actions {
+    display: flex;
+    align-items: center;
+}
+
+.header-user-info {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #333;
+    font-size: 1rem;
+}
+
+.header-user-pic {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .header-nav-container {
+        flex-direction: column;
+    }
+
+    .header-logo-link {
+        margin-bottom: 15px; /* Adds space between logo and user info on small screens */
+    }
+}

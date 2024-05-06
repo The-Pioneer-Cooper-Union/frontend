@@ -1,0 +1,21 @@
+.privacy-container {
+    margin: 20px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    font-family: 'Arial', sans-serif;
+}
+
+.privacy-container h1, .privacy-container h2 {
+    color: #333;
+}
+
+.privacy-container p {
+    color: #666;
+    line-height: 1.6;
+}
+
+.privacy-container section {
+    margin-bottom: 20px;
+}
