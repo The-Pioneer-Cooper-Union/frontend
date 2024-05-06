@@ -9,9 +9,9 @@ function Footer() {
                 <p>&copy; 2024 <a href="/" className="pioneer-link">THE PIONEER</a>. All rights reserved.</p>
                 <div className="footer-links">
 
-                    <a href="/terms">Terms of Service</a>
-                    <a href="/privacy">Privacy Policy</a>
-                    <a href="/contact">Contact</a>
+                    <Link to="/terms">Terms of Service</Link>
+                    <Link to="/privacy">Privacy Policy</Link>
+                    <Link to="/contact">Contact</Link>
 
                 </div>
             </div>
