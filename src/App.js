@@ -35,7 +35,7 @@ function App() {
   };
 
   return (
-      <HashRouter>
+      <Router>
         <div className="app">
           <Routes>
             <Route path="/signUp" element={<SignUp />} />
@@ -51,7 +51,7 @@ function App() {
           </Routes>
           <Footer/>
         </div>
-      </HashRouter>
+      </Router>
   );
 }
 
